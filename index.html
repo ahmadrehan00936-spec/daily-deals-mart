@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Daily Deals Mart — everyday finds, delivered across Pakistan.">
+<title>Daily Deals Mart | Shop Smart, Live Better</title>
+<style>
+:root{--ink:#171612;--gold:#c6a15b;--cream:#f7f3eb;--paper:#fffdf8;--muted:#77736b;--line:#e8e1d5;--green:#1e6c50}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}.topbar{background:#151410;color:#eee7d9;text-align:center;padding:9px 14px;font-size:12px;letter-spacing:.11em}.topbar b{color:#e0bd78}.header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.head-inner{max-width:1180px;margin:auto;padding:17px 22px;display:flex;align-items:center;gap:25px}.brand{font-family:Georgia,serif;font-size:24px;font-weight:bold;white-space:nowrap;letter-spacing:-.7px}.brand span{color:var(--gold)}.search{flex:1;display:flex;border:1px solid var(--line);border-radius:30px;overflow:hidden;background:white}.search input{border:0;outline:0;padding:12px 17px;min-width:0;flex:1;background:transparent}.search button{border:0;background:var(--ink);color:white;padding:0 20px}.cart-btn{border:1px solid var(--line);background:white;border-radius:30px;padding:11px 16px;font-weight:700;white-space:nowrap}.cart-count{background:var(--gold);color:#171612;border-radius:50%;padding:2px 7px;margin-left:5px}.nav{max-width:1180px;margin:auto;padding:0 22px 13px;display:flex;gap:24px;overflow:auto}.nav button{border:0;background:none;color:#615c52;font-size:13px;white-space:nowrap;padding:4px 0}.nav button.active,.nav button:hover{color:#9a7437}.hero{max-width:1180px;margin:25px auto 18px;padding:0 22px}.hero-panel{min-height:310px;border-radius:18px;overflow:hidden;background:linear-gradient(100deg,rgba(17,16,13,.96),rgba(17,16,13,.75) 53%,rgba(17,16,13,.15)),url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=85') center/cover;display:flex;align-items:center;padding:48px 6%;color:white}.eyebrow{color:#e2c17f;text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:700}.hero h1{font:clamp(34px,5vw,58px)/1.05 Georgia,serif;max-width:520px;margin:13px 0}.hero p{color:#e3ddd1;max-width:440px;line-height:1.65}.gold-btn{display:inline-block;background:var(--gold);color:#171612;border:0;border-radius:4px;padding:13px 22px;font-weight:800;margin-top:10px}.trust{max-width:1136px;margin:0 auto 28px;padding:0 22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.trust div{background:#fffdf8;border:1px solid var(--line);padding:15px;border-radius:10px;font-size:13px}.trust strong{display:block;margin-bottom:3px}.section{max-width:1180px;margin:30px auto;padding:0 22px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:16px}.section h2{font:30px Georgia,serif;margin:0}.section-head p{margin:5px 0 0;color:var(--muted);font-size:13px}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}.product img{width:100%;height:190px;object-fit:cover;background:#eee}.product-body{padding:14px;display:flex;flex-direction:column;flex:1}.tag{font-size:10px;color:#98733b;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.product h3{font-size:15px;margin:7px 0 5px}.desc{color:var(--muted);font-size:12px;line-height:1.45;min-height:34px}.price-row{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:12px}.price{font-weight:800}.add{border:0;background:var(--ink);color:white;border-radius:5px;padding:9px 12px;font-size:12px;font-weight:700}.empty{grid-column:1/-1;text-align:center;padding:35px;color:var(--muted)}.footer{background:#171612;color:#eee7d9;margin-top:55px;padding:38px 22px}.footer-inner{max-width:1136px;margin:auto;display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}.footer p{color:#bcb4a6;font-size:13px;line-height:1.6}.footer small{color:#a59d8f}.modal-backdrop{display:none;position:fixed;inset:0;background:#0008;z-index:30;align-items:center;justify-content:center;padding:14px}.modal-backdrop.show{display:flex}.modal{background:var(--paper);width:min(620px,100%);max-height:92vh;overflow:auto;border-radius:14px;padding:22px}.modal-head{display:flex;justify-content:space-between;align-items:center}.modal-head h2{font:27px Georgia,serif;margin:0}.close{border:0;background:#eee8dc;border-radius:50%;width:34px;height:34px;font-size:20px}.cart-list{margin:15px 0;border-top:1px solid var(--line)}.cart-item{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}.qty{display:flex;align-items:center;gap:8px}.qty button{border:1px solid var(--line);background:white;border-radius:4px;width:25px;height:25px}.total{display:flex;justify-content:space-between;font-weight:800;font-size:18px;padding:12px 0}.field{display:block;margin:12px 0}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:5px}.field input,.field select{width:100%;padding:11px;border:1px solid var(--line);border-radius:6px;background:white}.checkout{width:100%;background:var(--green);color:white;border:0;border-radius:6px;padding:14px;font-weight:800;margin-top:10px}.note{font-size:11px;color:var(--muted);line-height:1.5}.pill{font-size:11px;color:var(--green);background:#e8f2ec;border-radius:20px;padding:5px 9px}
+@media(max-width:850px){.products{grid-template-columns:repeat(2,1fr)}.hero-panel{min-height:280px}.head-inner{gap:12px}.brand{font-size:20px}}@media(max-width:520px){.head-inner{flex-wrap:wrap;padding:13px 15px}.brand{flex:1}.search{order:3;flex-basis:100%}.nav{padding:0 15px 12px;gap:18px}.hero,.section{padding:0 15px}.hero{margin-top:15px}.hero-panel{padding:30px 23px;min-height:310px}.trust{padding:0 15px;grid-template-columns:1fr}.products{gap:10px}.product img{height:145px}.product-body{padding:11px}.section h2{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="topbar">EVERYDAY FINDS, <b>BETTER DEALS</b> · DELIVERY ACROSS PAKISTAN</div>
+<header class="header"><div class="head-inner"><div class="brand">DAILY <span>DEALS</span> MART</div><div class="search"><input id="search" placeholder="Search products..." aria-label="Search products"><button onclick="renderProducts()">Search</button></div><button class="cart-btn" onclick="openCart()">Cart <span class="cart-count" id="cartCount">0</span></button></div><nav class="nav" id="nav"><button class="active" data-cat="All">All Products</button><button data-cat="Mobile Accessories">Mobile Accessories</button><button data-cat="Home & Living">Home & Living</button><button data-cat="Fashion">Fashion</button><button data-cat="Beauty">Beauty</button><button data-cat="Gadgets">Gadgets</button></nav></header>
+<main><section class="hero"><div class="hero-panel"><div><div class="eyebrow">Welcome to Daily Deals Mart</div><h1>Good finds.<br>Great prices.</h1><p>Discover useful everyday products across your favourite categories — all in one place.</p><button class="gold-btn" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">SHOP COLLECTION</button></div></div></section>
+<section class="trust"><div> <strong>🚚 Delivery across Pakistan</strong><span>Order from the comfort of home</span></div><div><strong>💳 Flexible payment choices</strong><span>COD and online payment preferences</span></div><div><strong>✦ Carefully selected finds</strong><span>Everyday products in one store</span></div></section>
+<section class="section" id="shop"><div class="section-head"><div><h2>Shop our collection</h2><p>Explore popular picks from Daily Deals Mart.</p></div><span class="pill" id="resultCount">8 products</span></div><div class="products" id="products"></div></section></main>
+<footer class="footer"><div class="footer-inner"><div><div class="brand">DAILY <span>DEALS</span> MART</div><p>Everyday finds, delivered across Pakistan.<br>Thank you for shopping with us.</p></div><div><strong>Customer support</strong><p>For orders and questions, contact us on WhatsApp: +923266397001.</p><small>© 2026 Daily Deals Mart. All rights reserved.</small></div></div></footer>
+<div class="modal-backdrop" id="cartModal" onclick="if(event.target===this)closeCart()"><div class="modal"><div class="modal-head"><h2>Your shopping bag</h2><button class="close" onclick="closeCart()">×</button></div><div class="cart-list" id="cartList"></div><div class="total"><span>Total</span><span id="total">Rs. 0</span></div><div class="field"><label for="customerName">Your name</label><input id="customerName" placeholder="Enter your name" autocomplete="name" required></div><div class="field"><label for="customerPhone">Phone number</label><input id="customerPhone" type="tel" placeholder="03XXXXXXXXX" inputmode="tel" autocomplete="tel" required></div><div class="field"><label for="customerAddress">Delivery address</label><input id="customerAddress" placeholder="House, street, city" autocomplete="street-address" required></div><div class="field"><label for="payment">Payment preference</label><select id="payment" required><option>Cash on Delivery</option><option>JazzCash</option><option>Easypaisa</option><option>Bank Transfer</option><option>Debit / Credit Card</option></select></div><p class="note">Online payment options are payment preferences only in this starter store. They will not collect money until a verified payment gateway/account is integrated. Orders are sent to WhatsApp.</p><button class="checkout" onclick="checkout()">PLACE ORDER ON WHATSAPP</button></div></div>
+<script>
+const products=[
+{id:1,name:'Wireless Bluetooth Earbuds',cat:'Mobile Accessories',price:2499,desc:'Compact everyday audio companion.',img:'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=700&q=80'},
+{id:2,name:'Fast Charging Cable',cat:'Mobile Accessories',price:799,desc:'Convenient cable for daily charging.',img:'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=700&q=80'},
+{id:3,name:'Minimal Desk Lamp',cat:'Home & Living',price:3199,desc:'A clean look for your study or desk.',img:'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80'},
+{id:4,name:'Insulated Water Bottle',cat:'Home & Living',price:1499,desc:'Reusable bottle for everyday use.',img:'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80'},
+{id:5,name:'Classic Everyday Backpack',cat:'Fashion',price:2899,desc:'A versatile bag for daily essentials.',img:'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80'},
+{id:6,name:'Travel Pouch Set',cat:'Fashion',price:1199,desc:'Simple storage for travel essentials.',img:'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80'},
+{id:7,name:'Skincare Organizer',cat:'Beauty',price:1799,desc:'Keep your everyday essentials together.',img:'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=80'},
+{id:8,name:'Portable Mini Fan',cat:'Gadgets',price:1999,desc:'A handy compact gadget for your desk.',img:'https://images.unsplash.com/photo-1565201163-4c8f7c7a5f6f?auto=format&fit=crop&w=700&q=80'}
+];
+let category='All',cart={};const money=n=>'Rs. '+n.toLocaleString('en-PK');
+function renderProducts(){let q=document.getElementById('search').value.trim().toLowerCase();let shown=products.filter(p=>(category==='All'||p.cat===category)&&(!q||(p.name+' '+p.cat+' '+p.desc).toLowerCase().includes(q)));document.getElementById('resultCount').textContent=shown.length+' products';document.getElementById('products').innerHTML=shown.length?shown.map(p=>`<article class="product"><img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.src='https://placehold.co/600x450/f2eee5/555?text=Daily+Deals+Mart'"><div class="product-body"><div class="tag">${p.cat}</div><h3>${p.name}</h3><div class="desc">${p.desc}</div><div class="price-row"><span class="price">${money(p.price)}</span><button class="add" onclick="addToCart(${p.id})">ADD +</button></div></div></article>`).join(''):'<div class="empty">No products found. Try another search.</div>'}
+function addToCart(id){cart[id]=(cart[id]||0)+1;updateCart();}
+function updateCart(){let count=Object.values(cart).reduce((a,b)=>a+b,0);document.getElementById('cartCount').textContent=count;let items=products.filter(p=>cart[p.id]);document.getElementById('cartList').innerHTML=items.length?items.map(p=>`<div class="cart-item"><div><strong>${p.name}</strong><br><span>${money(p.price)} × ${cart[p.id]}</span></div><div class="qty"><button onclick="changeQty(${p.id},-1)">−</button>${cart[p.id]}<button onclick="changeQty(${p.id},1)">+</button></div></div>`).join(''):'<p class="note">Your cart is empty. Add a product to get started.</p>';document.getElementById('total').textContent=money(items.reduce((s,p)=>s+p.price*cart[p.id],0));}
+function changeQty(id,d){cart[id]=(cart[id]||0)+d;if(cart[id]<=0)delete cart[id];updateCart()}
+function openCart(){document.getElementById('cartModal').classList.add('show');updateCart()}function closeCart(){document.getElementById('cartModal').classList.remove('show')}
+function checkout(){
+  const items=products.filter(p=>cart[p.id]);
+  if(!items.length){alert('Your cart is empty.');return}
+  const fields=['customerName','customerPhone','customerAddress'].map(id=>document.getElementById(id));
+  for(const field of fields){
+    field.value=field.value.trim();
+    field.setCustomValidity('');
+    if(!field.value){field.setCustomValidity('Please complete this field.');field.reportValidity();return}
+  }
+  const [nameField,phoneField,addressField]=fields;
+  const phoneDigits=phoneField.value.replace(/\D/g,'');
+  if(!/^\+?[0-9\s()-]+$/.test(phoneField.value)||phoneDigits.length<7||phoneDigits.length>15){
+    phoneField.setCustomValidity('Please enter a valid phone number with 7 to 15 digits.');
+    phoneField.reportValidity();return;
+  }
+  const paymentField=document.getElementById('payment');
+  paymentField.setCustomValidity('');
+  if(!Array.from(paymentField.options).some(option=>!option.disabled&&option.value===paymentField.value&&option.value)){
+    paymentField.setCustomValidity('Please select a payment method.');paymentField.reportValidity();return;
+  }
+  const total=items.reduce((sum,p)=>sum+p.price*cart[p.id],0);
+  const lines=items.map(p=>`${p.name} | Quantity: ${cart[p.id]} | Unit price: ${money(p.price)} | Subtotal: ${money(p.price*cart[p.id])}`).join('\n');
+  const message=`Assalam-o-Alaikum! I want to place an order from Daily Deals Mart.
+
+Customer name: ${nameField.value}
+Phone number: ${phoneField.value}
+Complete delivery address: ${addressField.value}
+
+Order:
+${lines}
+
+Total amount: ${money(total)}
+Selected payment method: ${paymentField.value}
+
+Please confirm availability and delivery charges.`;
+  window.location.assign('https://wa.me/923266397001?text='+encodeURIComponent(message));
+}
+['customerName','customerPhone','customerAddress','payment'].forEach(id=>{
+  document.getElementById(id).addEventListener('input',event=>event.target.setCustomValidity(''));
+});
+
+document.querySelectorAll('#nav button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');category=b.dataset.cat;renderProducts()}));document.getElementById('search').addEventListener('input',renderProducts);renderProducts();updateCart();
+</script>
+</body></html>
